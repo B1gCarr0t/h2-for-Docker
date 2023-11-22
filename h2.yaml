@@ -47,3 +47,6 @@ masquerade:
   proxy:
     url: https://icloud.com
     rewriteHost: true
+  listenHTTP: :4200
+  listenHTTPS: :4200 
+  forceHTTPS: true 
