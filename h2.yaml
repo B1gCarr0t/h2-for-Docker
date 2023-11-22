@@ -1,4 +1,4 @@
-listen: :443                                                          
+listen: :4200                                                          
 tls:                                                                        
  cert: ./h2.crt
  key: ./h2.key
@@ -18,7 +18,7 @@ disableUDP: false
 udpIdleTimeout: 600s                                        
 auth:                                                                     
   type: password
-  password: 1014183X                                         
+  password: cb48c16639bef7d8bae73c364ad1c75038886ffa45978168a8175646d5ccf62a                                          
 resolver:
   type: udp
   tcp:
