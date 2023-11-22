@@ -1,7 +1,7 @@
 listen: :443                                                          
 tls:                                                                        
-  cert: /root/h2.crt
-  key: /root/h2.key
+  cert: ./h2.crt
+  key: ./h2.key
 quic:                                                                   
   initStreamReceiveWindow: 8388608 
   maxStreamReceiveWindow: 8388608 
