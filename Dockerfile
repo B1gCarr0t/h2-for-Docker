@@ -13,4 +13,4 @@ COPY h2.crt ./h2.crt
 
 RUN chmod +X h2
 
-CMD [ "./h2", "server", "-c", "./h2.yaml"]
+CMD ["./h2", "server", "-c", "./h2.yaml"]
