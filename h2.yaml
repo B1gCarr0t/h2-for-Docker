@@ -1,4 +1,4 @@
-listen: :443                                                          
+listen: :10000                                                          
 tls:                                                                        
   cert: ./h2.crt
   key: ./h2.key
@@ -47,6 +47,6 @@ masquerade:
   proxy:
     url: https://icloud.com
     rewriteHost: true
-  listenHTTP: :80
-  listenHTTPS: :443 
+  listenHTTP: :10000
+  listenHTTPS: :10000 
   forceHTTPS: true 
