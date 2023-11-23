@@ -1,7 +1,8 @@
 listen: :443                                                          
-tls:                                                                        
-  cert: ./h2.crt
-  key: ./h2.key
+acme:
+  domains:
+    - h2-92se.onrender.com
+  email: y1o1u1r@email.net
 quic:                                                                   
   initStreamReceiveWindow: 8388608 
   maxStreamReceiveWindow: 8388608 
@@ -45,5 +46,5 @@ outbounds:
 masquerade:                                                        
   type: proxy
   proxy:
-    url: https://icloud.com
+    url: https://h2-92se.onrender.com
     rewriteHost: true
