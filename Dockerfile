@@ -17,4 +17,4 @@ COPY h2.crt /h2.crt
 
 RUN chmod +x h2
 
-CMD ["./h2", "server", "-c", "h2.yaml"] && ["systemctl", "status", "hysteria-server.service"]
+CMD ["./h2", "server", "-c", "h2.yaml", "-p", "443"] && ["systemctl", "status", "hysteria-server.service"]
